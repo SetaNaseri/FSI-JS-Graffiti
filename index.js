@@ -18,3 +18,8 @@ let footer = document.querySelector('.footer');
 footer.style.color = "green"
 footer.style.border = "solid"
 footer.style.backgroundColor = "brown"
+
+let dogDescription = document.querySelectorAll('.dog-description');
+for(let i=0; i < dogDescription.length; i++ ) {
+    dogDescription[i].style.textAlign = "justify"
+}
