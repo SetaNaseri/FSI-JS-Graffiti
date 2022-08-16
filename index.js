@@ -16,3 +16,5 @@ for(let i=0; i < dogNames.length; i++ ) {
 
 let footer = document.querySelector('.footer');
 footer.style.color = "green"
+footer.style.border = "solid"
+footer.style.backgroundColor = "brown"
